@@ -548,7 +548,7 @@ void loop() {
 
   if(is_pressed(370, 210, 470, 310,px,py))  // Button 4
   {
-    G = 75708; // mL = 20 gallons
+    G = 102206; // mL = 27 gallons max 
     
     if(switch_flag_2)
     {
@@ -687,3 +687,4 @@ void loop() {
     displayMillis = millis();
   }
 }
+
