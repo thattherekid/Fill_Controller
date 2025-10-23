@@ -55,7 +55,7 @@ void setup(){
   pinMode(statusLed, OUTPUT);
   digitalWrite(statusLed, HIGH);  // We have an active-low LED attached
   
-  pinMode(sensorPin, INPUT);
+  pinMode(sensorPin, INPUT_PULLUP);
   digitalWrite(sensorPin, HIGH);
 
   pulseCount        = 0;
